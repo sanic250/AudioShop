@@ -1,0 +1,111 @@
+.container{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem 2rem;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-between;
+  background-color: rgba(250, 250, 250, 0.438);
+}
+
+.logo{
+  width: 3rem;
+  height: 3rem;
+  margin-left: 4rem;
+  padding: 0.5rem 1rem;
+  
+  border-radius: 20px;
+  background-color: rgba(223, 219, 219, 0.671);
+}
+
+.logoContainer{
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+  margin-left: 4rem;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.form{
+
+  display: flex;
+  align-items: center;
+}
+
+.input{
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: inline-flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  align-items: center;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  margin:0rem 0.5rem;
+}
+
+.btnSearch{
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 0.1rem;
+  padding: 0.6rem;
+}
+
+.iconSearch{
+  color: white;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+  justify-content: center;
+  padding: 0.4rem;
+  margin-right: 2rem;
+  border-radius: 40px;
+  
+}
+
+.icons{
+  background-color:rgb(255, 253, 253);
+  padding: 0.4rem;
+  border-radius: 50px;
+}
+
+.hearth{
+  color: red;
+}
+
+.loginProfile{
+  display: flex;
+  gap:1rem;
+  align-items: center;
+  padding: 0.4rem;
+  
+  border-radius: 20px;
+ 
+}
+
+.buttons{
+  border: none;
+  display: flex;
+  gap:0.5rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background-color:rgb(255, 253, 253);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+
