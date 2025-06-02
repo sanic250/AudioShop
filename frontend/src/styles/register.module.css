@@ -1,0 +1,58 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.form{
+  border: 2px solid black;
+  padding: 3rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  place-items: center;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.342);
+}
+
+.navLink{
+  font-weight: bold;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.input{
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: rgb(159, 147, 214);
+}
+
+.btnSubmit{
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+
+}
+
+.label{
+  display: flex;
+  gap:0.4rem;
+}
