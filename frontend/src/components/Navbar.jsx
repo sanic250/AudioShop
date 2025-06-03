@@ -27,7 +27,9 @@ const Navbar = () => {
    
     <div className={styles.container}>
       <div className={styles.logoContainer}>
-        <img src="/logoaudio3.png" alt="logo" className={styles.logo} />
+      <Link to="/">
+        <img src="/logoaudio3.png" alt="logo"  className={styles.logo} />
+      </Link>
         <div className={styles.search}>
           <form className={styles.form}>
             <input

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/dashboard.module.css";
 import { useState } from "react";
 import DashboardUsers from "../components/dashboard/DashboardUsers.jsx";
+import Products from "../components/dashboard/Products.jsx";
 import {
   Users,
   Speaker,
@@ -45,6 +46,7 @@ const Dashboard = () => {
         </div>
       </div>
       {categorySwitch === "Users" && <DashboardUsers />}
+      {categorySwitch === "Products" && <Products />}
     </div>
   );
 };

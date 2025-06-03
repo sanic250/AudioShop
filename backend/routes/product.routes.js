@@ -1,4 +1,6 @@
 import express from "express";
+import multer from 'multer';
+const upload = multer({ dest: 'uploads/' });
 import {
   getProducts,
   getProduct,
@@ -12,7 +14,7 @@ const router = express.Router();
 
 router.get("/", getProducts);
 router.get("/:id", getProduct);
-router.post("/", createProduct);
+router.post('/', upload.single('image'), createProduct);
 router.put("/:id", updateProduct);
 router.delete("/:id", deleteProduct);
 
